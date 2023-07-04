@@ -1,0 +1,2 @@
+# ShellReversa
+SHELL REVERSA BÁSICA
