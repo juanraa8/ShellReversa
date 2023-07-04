@@ -11,7 +11,7 @@ int main() {
     struct sockaddr_in clientAddr;
     clientAddr.sin_family = AF_INET;
     clientAddr.sin_port = htons(80); 
-    clientAddr.sin_addr.s_addr = inet_addr("47.60.51.212"); 
+    clientAddr.sin_addr.s_addr = inet_addr("127.0.0.1"); 
 
     if (connect(sockfd, (struct sockaddr*)&clientAddr, sizeof(clientAddr)) == -1) {
         std::cout << "ERROR. Conexión no establecida." << std::endl;
