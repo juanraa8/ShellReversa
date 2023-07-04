@@ -1,2 +1,2 @@
 # ShellReversa
-SHELL REVERSA BÁSICA
+Shell reserva básica para ampliar (solo uso académico)
